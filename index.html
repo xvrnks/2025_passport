@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>DOM_JS. Считываем информацию из DOM</title>
+</head>
+
+<body>
+
+    <h3>Навигация</h3>
+    <ul>
+        <li><a href="../01/index.html" target="_blank"><b>Паспорт и скриншот</b></a>
+        <li><a href="../02/index.html" target="_blank"><b>Изменяем кириллицу на латиницу по клику</b></a>
+        <li><a href="../03/index.html" target="_blank"><b>Решение алгоритмической задачи</b></a>
+    </ul>
+
+    <h1>Паспорт гражданина</h1>
+    <table border="1" cellpadding="10" cellspacing="0" width="700">
+        <caption>РОССИЙСКАЯ ФЕДЕРАЦИЯ</caption>
+        <tr>
+            <td colspan="3" align="left">Паспорт выдан ГУ МВД России по г. Санкт-Петербургу и Ленинградской области</td>
+            <td rowspan="4" align="center"><b>Серия</b><br>4444</td>
+        </tr>
+        <tr>
+            <td align="left"><b>Дата выдачи</b><br>06.08.2020</td>
+            <td colspan="2"><b>Код подразделения</b><br>777-777</td>
+        </tr>
+        <tr>
+            <td colspan="3" align="right"><b>Личный код:</b> 111-111</td>
+        </tr>
+        <tr>
+            <td align="left">
+                <b>Фамилия:</b> <span id="secondname">Рогозина</span>
+            </td>
+            <td align="left">
+                <b>Имя:</b> <span id="name">Варвара</span>
+            </td>
+            <td align="left">
+                <b>Год рождения:</b> <span id="year">2006</span>
+            </td>
+        </tr>
+    </table>
+
+
+    <h1>Мой скриншот</h1>
+    <p><img src="../images/screenshot.png" width="600" height="400" alt="Screenshot"></p>
+
+</body>
+
+</html>
