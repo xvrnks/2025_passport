@@ -6,6 +6,10 @@ function rename(){
      console.log(name_node.innerText)
     name_node.innerHTML="<b>Varvara</b>"
     console.log()
+
+    console.log(name_node.innerText)
+    year_node.innerHTML="<b>2006</b>"
+    console.log()
 }
 
 const secondName_node = document.getElementById("secondName")
@@ -18,4 +22,5 @@ const year_node = document.getElementById("year")
 year_node.addEventListener("click",rename)
 
 const for_click = document.getElementById("for_click")
+
 for_click.addEventListener("click",rename)
